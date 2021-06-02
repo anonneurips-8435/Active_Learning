@@ -3,7 +3,7 @@ import time
 import torch
 import numpy as np
 from .dataselectionstrategy import DataSelectionStrategy
-from ..helpers import OrthogonalMP_REG_Parallel, OrthogonalMP_REG
+from .helpers import OrthogonalMP_REG_Parallel, OrthogonalMP_REG
 from torch.utils.data import Subset, DataLoader
 
 
